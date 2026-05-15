@@ -11,9 +11,10 @@
         img 
         {
             border-radius: 50%;  /* Makes the image circular */
+            display: block;
+            margin: 0 auto;
         }
         
-
 
         .header
         {
@@ -30,7 +31,7 @@
             color: rgb(249, 249, 249);
             padding: 20px;
             bottom: 0;
-            text-align: right;
+            text-align: center;
             background-color: #ffffff00;
         }
 
@@ -38,12 +39,15 @@
         {
             /*background-color: #7c7b7b00;*/
             padding: 10px;
-            text-align: left;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
         }
 
         .spaced 
         {
             margin-top: 30px; /* Adds vertical space */
+            text-align: center;
         }
 
         /* make links white for visibility on dark background */
@@ -52,11 +56,18 @@
             text-decoration: none;
         }
 
+        /* Center the page content */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
     </style>
 </head>
 <body class="body projects-grid" style="background-image: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg');">
 
-    <h1 class="header" style="color: #070301cb;">HELLO THERE! I AM...
+    <h1 class="header" style="color: #070301cb; width: 100%; max-width: 800px;">HELLO THERE! I AM...
         <br>
         <em>
             <tag style="color: #e3ecd8;">ROMEO MONWABISE HLAKOANA
@@ -66,32 +77,30 @@
     </h1>
     
     
-    <img  alt="FACE IMAGE" src="Images\FACE IMAGE.jpg" width="150">
+    <img alt="FACE IMAGE" src="Images/FACE IMAGE.jpg" width="150">
     
 
     
-    <p class="body" alt="Animation of programmer" style="background-image: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg');"></p>>
+    <p class="body" alt="Animation of programmer" style="background-image: url('https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg');"></p>
     
     <div class="spaced" style="font-size:30px; color: whitesmoke">About me</div>
 
     
-        <p class ="body" style="background-color: rgba(171, 212, 242, 0.123); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
-            Aspiring software developer with a strong academic foundation in Java, <br>
-            specializing in Object-Oriented Programming and Data Structures.<br>
-            With solid problem-solving, soft skills and software design skills <br>
-            Strong command of languages like Python, Java, C++, HTML, CSS and JavaScript, <br>
-            and experience with frameworks like Node.js and tools such as Git and Docker.<br>
-            Using Git/GitHub for collaboration and code tracking.<br>
-            vscode for development and debugging.<br>
-            Passionate about learning new technologies and continuously improving my skills.<br>
-            Knowledgeable in frameworks like Node.js and tools as Git and docker .<br>
-            Using Git/GitHub for collaboration and code tracking.</br>
-        </p>
-    </div>
+    <p class="body" style="background-color: rgba(171, 212, 242, 0.123); padding: 20px; border-radius: 12px; color: white; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+        Aspiring software developer with a strong academic foundation in Java, <br>
+        specializing in Object-Oriented Programming and Data Structures.<br>
+        With solid problem-solving, soft skills and software design skills <br>
+        Strong command of languages like Python, Java, C++, HTML, CSS and JavaScript, <br>
+        and experience with frameworks like Node.js and tools such as Git and Docker.<br>
+        Using Git/GitHub for collaboration and code tracking.<br>
+        vscode for development and debugging.<br>
+        Passionate about learning new technologies and continuously improving my skills.<br>
+        Knowledgeable in frameworks like Node.js and tools as Git and docker .<br>
+        Using Git/GitHub for collaboration and code tracking.
+    </p>
 
-    <footer class="footer" >
+    <footer class="footer" style="width: 100%;">
         <pre>
-            
         <a href="contact.html" target="_blank">CONTACT</a>         <a href="porttfolio.html" target="_blank" >PROJECTS</a>        <a href="cv.html" target="_blank" >CV/RESUME</a>  
 
                 <b>© Romeo Monwabise Hlakoana 2026</b>
